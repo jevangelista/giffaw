@@ -4,7 +4,7 @@ body {
   background-color: skyblue; /* Sanity Check! */
 }
 
-input {
+#searchbar {
   display: block;
   width: 30%;
   font-size: 2em;
@@ -12,6 +12,16 @@ input {
   position: fixed;
   top: 10%;
   left: 35%;
+}
+
+#button {
+  display: block;
+  width: 20%;
+  font-size: 2em;
+  margin: 0 auto;
+  position: fixed;
+  top: 20%;
+  left: 40%;
 }
 
 @media all and (max-width: 600px) {
